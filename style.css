@@ -58,6 +58,34 @@ body::before {
     opacity: 0.5;
 }
 
+.ai-notice {
+    width: 100%;
+    max-width: 720px;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+    background: var(--lilac-glow-sm);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 0.6rem 0.9rem;
+    margin-bottom: 0.75rem;
+    font-size: 0.78rem;
+    line-height: 1.35;
+    color: var(--text-dim);
+    position: relative;
+    z-index: 1;
+}
+
+.ai-notice-icon {
+    flex-shrink: 0;
+    color: var(--lilac);
+    margin-top: 0.1rem;
+}
+
+.ai-notice strong {
+    color: var(--text);
+}
+
 .bg-ambient {
     position: fixed;
     inset: 0;
